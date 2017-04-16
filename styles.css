@@ -1,3 +1,41 @@
+.Top, .Bottom{
+	border: 2px solid white;
+	padding:50px;
+}
+
+.Bottom{
+	margin-top: 10px;
+}
+
+footer{
+	text-align: center;
+}
+
 body{
-	background: blue;
+	background-image: url("Images/background.jpg");
+	color:white;
+}
+
+h1{
+	font-family: Georgia;
+	font-style: italic;
+}
+
+.Table{
+	color:red;
+}
+
+a:visited { 
+    color: orange;
+}
+
+#Poll{
+	color:gold;
+	font-family: Helvetica;
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+	body{
+		background:black;
+	}
 }
